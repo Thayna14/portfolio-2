@@ -13,7 +13,7 @@ body {
     height: 100vh;
 
     /* Cria um gradiente de cores de cima para baixo como plano de fundo */
-    background: linear-gradient(to bottom, #f789b7, #f789b7, #f789b7);
+    background: linear-gradient(to bottom, #e59ff3 , #e59ff3, #e59ff3);
 
     /* Define o tamanho de fundo para cobrir toda a área disponível */
     background-size: cover;
@@ -51,7 +51,7 @@ body {
 
 /* Define a cor do texto para elementos com a classe .titulo-destaque como d38b06 (laranja) */
 .titulo-destaque {
-    color: #f34a9f;
+    color: #aa17c7;
 }
 
 /* Estilos para elementos com a classe .conteudo */
@@ -161,7 +161,7 @@ body {
     background-color: #000;
 
     /* Define a cor do texto como laranja */
-    color: #fc1996;
+    color: #c61fcc;
 
     /* Define a largura do elemento como 500px */
     width: 500px;
@@ -176,7 +176,7 @@ body {
     align-items: center;
 
     /* Adiciona uma borda de 2px sólida laranja */
-    border: 3px solid #fd107f;
+    border: 3px solid #aa17c7;
 
     /* Define um raio de borda de 50px para criar um botão circular */
     border-radius: 50px;
@@ -270,7 +270,7 @@ body {
     height: 80px;
     align-items: center;
     text-align: center;
-    border: 3px solid #f72084;
+    border: 3px solid #aa17c7;
     border-radius: 50px;
     font-size: 36px;
     padding: 15px 0;
@@ -318,7 +318,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 3px solid #f72a90;
+    border: 3px solid #aa17c7;
     border-radius: 50px;
     font-size: 24px;
     padding: 15px 0;
@@ -366,7 +366,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 3px solid#f531aa;
+    border: 3px solid #aa17c7;
     border-radius: 50px;
     font-size: 24px;
     padding: 15px 0;
@@ -414,7 +414,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 3px solid#fa29aa;
+    border: 3px solid #aa17c7;
     border-radius: 50px;
     font-size: 24px;
     padding: 15px 0;
@@ -520,7 +520,7 @@ body {
     height: 10px;
 
     /* Adiciona uma borda de 2px sólida laranja aos pseudo-elementos */
-    border: 2px solid #f8208c;
+    border: 2px solid #aa17c7;
 
     /* Define o fundo dos pseudo-elementos como transparente */
     background-color: transparent;
@@ -565,7 +565,7 @@ body {
     left: 0;
     width: 100%;
     color: white;
-    background-color: #f34a9f;
+    background-color: #aa17c7;
     display: flex;
     align-items: center;
     justify-content: center;
