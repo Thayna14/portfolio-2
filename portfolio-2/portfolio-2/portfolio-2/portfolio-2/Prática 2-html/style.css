@@ -13,7 +13,7 @@ body {
     height: 100vh;
 
     /* Cria um gradiente de cores de cima para baixo como plano de fundo */
-    background: linear-gradient(to bottom, #e59ff3 , #e59ff3, #e59ff3);
+    background: linear-gradient(to bottom, #f5c9e1 , #f5c9e1, #f5c9e1);
 
     /* Define o tamanho de fundo para cobrir toda a área disponível */
     background-size: cover;
@@ -51,7 +51,7 @@ body {
 
 /* Define a cor do texto para elementos com a classe .titulo-destaque como d38b06 (laranja) */
 .titulo-destaque {
-    color: #aa17c7;
+    color: #fa54a7;
 }
 
 /* Estilos para elementos com a classe .conteudo */
@@ -115,6 +115,7 @@ body {
 
     /* Alinha o texto justificado */
     text-align: justify;
+
 }
 
 /* Estilos para elementos com a classe .apresentacao-conteudo-paragrafo */
@@ -127,6 +128,7 @@ body {
 
     /* Alinha o texto justificado */
     text-align: justify;
+
 }
 
 
@@ -161,13 +163,13 @@ body {
     background-color: #000;
 
     /* Define a cor do texto como laranja */
-    color: #c61fcc;
+    color: #ee4399;
 
     /* Define a largura do elemento como 500px */
-    width: 500px;
+    width: 425px;
 
     /* Define a altura do elemento como 80px */
-    height: 80px;
+    height: 60px;
 
     /* Alinha o texto ao centro horizontalmente */
     text-align: center;
@@ -176,7 +178,7 @@ body {
     align-items: center;
 
     /* Adiciona uma borda de 2px sólida laranja */
-    border: 3px solid #aa17c7;
+    border: 3px solid #fa54a7;
 
     /* Define um raio de borda de 50px para criar um botão circular */
     border-radius: 50px;
@@ -228,7 +230,7 @@ body {
     height: 100%;
 
     /* Cria um gradiente linear de 45 graus para o fundo do pseudo-elemento */
-    background: linear-gradient(45deg, transparent, #fc1480);
+    background: linear-gradient(45deg, transparent, #f850a45e);
 
     /* Adiciona uma transição suave de 0.5 segundos */
     transition: 0.5s;
@@ -265,12 +267,12 @@ body {
 
 .botao2 {
     background-color: #000;
-    color: #0077B5; /* Cor padrão do LinkedIn */
-    width: 500px;
-    height: 80px;
+    color: #2a79ee; /* Cor padrão do LinkedIn */
+    width: 425px;
+    height: 60px;
     align-items: center;
     text-align: center;
-    border: 3px solid #aa17c7;
+    border: 3px solid #fa54a7;
     border-radius: 50px;
     font-size: 36px;
     padding: 15px 0;
@@ -289,7 +291,7 @@ body {
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg, transparent, #0077B5);
+    background: linear-gradient(45deg, transparent, #507df85b);
     transition: 0.5s;
 }
 
@@ -312,13 +314,13 @@ body {
 .botao3 {
     background-color: #000;
     align-items: center;
-    color: #333; /* Cor padrão do GitHub */
-    width: 500px;   
-    height: 80px; 
+    color: #474247; /* Cor padrão do GitHub */
+    width: 425px;   
+    height: 60px; 
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 3px solid #aa17c7;
+    border: 3px solid #fa54a7;
     border-radius: 50px;
     font-size: 24px;
     padding: 15px 0;
@@ -337,7 +339,7 @@ body {
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg, transparent, #333);
+    background: linear-gradient(45deg, transparent, #4440425b);
     transition: 0.5s;
 }
 
@@ -355,115 +357,19 @@ body {
 
 /* fim da estilização ancora3(botao3) */
 
-/* inicio estilização ancora4(botao4) */
-
-.botao4 {
-    background-color: #000;
-    align-items: center;
-    color: #25D366; /* Cor padrão do WhatsApp */
-    width: 500px;   
-    height: 80px; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 3px solid #aa17c7;
-    border-radius: 50px;
-    font-size: 24px;
-    padding: 15px 0;
-    text-decoration: none;
-    font-family: 'Rock Salt', cursive;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    position: relative;
-    overflow: hidden;
-}
-
-.botao4::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(45deg, transparent, #25D366);
-    transition: 0.5s;
-}
-
-.botao4:hover::before {
-    left: 100%;
-}
-
-.botao4 i {
-    position: absolute;
-    font-size: 60px;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-
-/* fim estilização ancora4(botao4) */
-
-/* inicio estilização ancora5(botao5) */
-
-.botao5 {
-    background-color: #000;
-    align-items: center;
-    color: #b61ca9; /* Cor padrão do Instagram */
-    width: 500px;   
-    height: 80px; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 3px solid #aa17c7;
-    border-radius: 50px;
-    font-size: 24px;
-    padding: 15px 0;
-    text-decoration: none;
-    font-family: 'Rock Salt', cursive;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 15px;
-}
-
-.botao5::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(45deg, transparent, #2a0887);
-    transition: 0.5s;
-}
-
-.botao5:hover::before {
-    left: 100%;
-}
-
-.botao5 i {
-    position: absolute;
-    font-size: 60px;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-
-/* fim estilização ancora5(botao5) */
 
 /* inicio estilização imagem */
 
 /* Estilos para elementos com a classe .imagem */
 .imagem {
     /* Define a largura máxima do elemento como 100% */
-    max-width: 80%;
+    max-width: 70%;
 
     /* Define a largura do elemento como 650px */
-    width: 400px;
+    width: 350px;
 
     /* Define a altura do elemento como 650px */
-    height: 600px;
+    height: 560px;
 
     /* Alinha o conteúdo ao centro horizontalmente */
     text-align: center;
@@ -520,7 +426,7 @@ body {
     height: 10px;
 
     /* Adiciona uma borda de 2px sólida laranja aos pseudo-elementos */
-    border: 2px solid #aa17c7;
+    border: 2px solid #fa54a7;
 
     /* Define o fundo dos pseudo-elementos como transparente */
     background-color: transparent;
@@ -565,7 +471,7 @@ body {
     left: 0;
     width: 100%;
     color: white;
-    background-color: #aa17c7;
+    background-color: #fa54a7;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -578,7 +484,7 @@ body {
 
 /* Estilo de link no rodapé */
 .rodape a:hover {
-    color: #800160;
+    color:#7f208b
 }
 
 
